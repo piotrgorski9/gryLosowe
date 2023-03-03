@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+	<head>
+		<meta charset="utf-8">
+		<meta name="descryption" content="Strona internetowa poświęcona grze w kości.">
+		<title>Formularz oceniający</title>
+		<meta name="keywords" content="kość, strona, gra">
+		<meta name="creator" content="Piotr Górski">
+		<meta name="generator" content="Notepad ++">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	
+	</head>
+	<body>
+		<nav class="menu">
+			<div class="logo">
+			<a href="index.html"><img src="images/logo.png" height="50" alt="Brak logo"></a>
+			</div>
+			<div>
+			<a href="#formularz">Formularz</a>
+			<a href="#kontakt">Kontakt</a>
+			</div>
+		</nav>
+		
+		<br><br><br>
+		<a id="formularz">
+		<form action="mailto:piotrgorski@gamil.com" method="post" enctype="text/plain">          
+			<div class="box">             
+				<h1>Formularz oceniający :</h1>             
+				<label>
+					<span>Podaj imie: </span>                
+					<input type="text" class="wpis" name="nazwa" id="nazwa"/>             
+				</label>     
+				<label>
+					<span>Podaj nazwisko: </span>                
+					<input type="text" class="wpis" name="nazwa" id="nazwa"/>             
+				</label> 
+				<label>                
+					<span>Płeć: </span>
+					<input type="radio" name="Płeć" value="Kobieta"/> &nbsp Kobieta &nbsp   
+					<input type="radio" name="Płeć" value="Mężczyzna"/> &nbsp Mężczyzna 		
+				</label>  
+				<label>                
+					<span>Ocena: </span>
+					<input type="radio" name="ocena" value="1"/> 1 &nbsp 
+					<input type="radio" name="ocena" value="2"/> 2 &nbsp
+					<input type="radio" name="ocena" value="2"/> 3 &nbsp
+					<input type="radio" name="ocena" value="2"/> 4 &nbsp
+					<input type="radio" name="ocena" value="2"/> 5 &nbsp
+				</label>  
+				<label>                 
+					<span>Uwagi :</span>                 
+					<textarea class="wiadomosc" name="ocena"cols="50" rows="10">Proszę, wpisz tutaj jakiś komentarz...</textarea>                
+					<input type="submit" class="button "value="Wyślij formularz">
+					<input type="reset" class="button "value="Wyczyść dane">		
+				</label>                                  
+			</div>     
+		</form>
+	
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<div class="tresc">
+			<a id="kontakt"></a>
+			Autor: Piotr Górski
+			<address>piotrgorski@gamil.com</address>
+		</div>
+
+	</body>
+
+</html>

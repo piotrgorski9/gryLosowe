@@ -1,0 +1,175 @@
+body {
+	background: linear-gradient(
+        135deg,
+        #2c2c2c,
+        black);
+	color: #ffffff;
+	
+	font-family: Verdana;
+	font-size: medium;
+	}
+
+.tresc {
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+a {
+	color: #000000;
+	}
+
+a:hover {
+	color: #000000;
+	}
+
+.menu {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+	background: #fbc02d;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+.menu a {
+	margin: 0 2rem;
+	text-decoration: none;
+	padding: 1rem .5rem;
+	}
+
+
+.container {
+	width: 70%; 
+	margin: auto;
+	text-align: center;
+	}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+	margin: 10px;
+	}
+
+.bottom {
+	padding-top: 30px;
+	text-align: center;
+    }
+	
+.butn {
+	background: #fbc02d;
+	font-family: Verdana;
+	border-radius: 100px;
+	color: #000000;
+	font-size: 30px;
+	padding: 16px 25px 16px 25px;
+	text-decoration: none;
+    }
+
+.butn:hover {
+	background: #c49000;
+	text-decoration: none;
+    }
+
+.zdRight {
+	float: right; 
+	margin: 10px;
+	border: 5px solid yellow;
+	width: 27%;
+	height: 33%;
+	}
+	
+.zdLeft {
+	float: left; 
+	margin: 10px;
+	border: 5px solid yellow;
+	width: 27%;
+	height: 33%;
+	}
+	
+form, input, select, textarea {
+	margin:0; 
+	padding:0; 
+	color:#ffffff;
+	font-size:12px;
+	
+	}
+	
+div.box {
+	margin:0 auto;
+	width:500px;
+	background:#222222;
+	position:relative;
+	top:50px;
+	border:1px solid #262626;
+	}
+	
+div.box h1 { 
+	color:#ffffff;
+	font-size:18px;
+	text-transform:uppercase;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #161712;
+	border-top:1px solid #161712; 
+	}
+	
+div.box label {
+	width:100%;
+	display: block;
+	background:#1C1C1C;
+	border-top:1px solid #262626;
+	border-bottom:1px solid #161712;
+	padding:10px 0 10px 0;
+	}
+ 
+div.box label span {
+	display: block;
+	color:#bbbbbb;
+	font-size:12px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 20px 0 0;
+	}
+	
+div.box .wpis {
+	padding:10px 10px;
+	width:200px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+	}
+ 
+div.box .wiadomosc {
+	padding:7px 7px;
+	width:350px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+	overflow:hidden;
+	height:150px;
+	}
+ 
+div.box .button	{
+	margin:0 0 10px 0;
+	padding:4px 7px;
+	background:#fbc02d;
+	color:#000000;
+	border:1px;
+	position: relative;
+	top:10px;
+	left:265px;
+	width:100px;
+	}
+
