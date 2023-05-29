@@ -1,1 +1,1 @@
-# gryLosowe
+# Strona Internetowa o Grach Losowych
